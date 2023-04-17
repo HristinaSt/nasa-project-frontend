@@ -1,0 +1,29 @@
+// src/components/NEOList/NEOList.module.scss
+.neoListContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+.neoListItem {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .neoListItemGreen {
+    background-color: #a9dfbf;
+  }
+  
+  .neoListItemOrange {
+    background-color: #f7dc6f;
+  }
+  
+  .neoListItemRed {
+    background-color: #ec7063;
+  }
+label {
+    color: black;
+    margin:10px;
+}  
