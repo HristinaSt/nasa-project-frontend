@@ -31,7 +31,6 @@ const MarsRoverPhotos: React.FC = () => {
     const fetchPhotos = async (date: Date) => {
         const formattedDate = format(date, 'yyyy-MM-dd');
         try {
-            console.log("dbfnd")
             const response = await fetchMarsRoverData(formattedDate);
             setPhotos(response.photos);
         } catch (error) {
