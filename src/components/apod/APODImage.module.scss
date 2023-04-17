@@ -1,0 +1,33 @@
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 20%
+}
+
+.image {
+  min-width: 50%;
+  min-height: 50%;
+  object-fit: contain;
+  opacity: 0;
+  animation: fadeInOut 61s linear infinite;
+  margin: 5%;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
