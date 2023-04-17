@@ -1,0 +1,25 @@
+.NEODetails {
+    text-align: center;
+}
+
+.backButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0;
+    color: blue;
+    top: 10px;
+    left: 10px;
+}
+
+.chartContainer {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.svgContainer {
+    display: inline-block;
+    margin-bottom: 20px;
+}
